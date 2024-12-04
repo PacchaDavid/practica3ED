@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% block title %}Censos Loja{% endblock %}
+
+{% block main_menu_content %}
+<div class="main-menu-content">
+  <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+    <li class="active"><a href="/"><i class="ft-home"></i><span class="menu-title"
+          data-i18n="">Inicio</span></a>
+    </li>
+    <li class="nav-item"><a href="/familia/table"><i class="la la-group"></i><span class="menu-title"
+          data-i18n="">Familias</span></a>
+    </li>
+    <li class="nav-item"><a href="/generador/table"><i class="la la-lightbulb-o"></i><span class="menu-title"
+      data-i18n="">Generadores</span></a>
+    </li>
+    <li class="nav-item"><a href="/transaccion/table"><i class="la la-exchange"></i><span class="menu-title"
+      data-i18n="">Transacciones</span></a>
+    </li>
+    <li class="nav-item"><a href="/historial/table"><i class="la la-history"></i><span class="menu-title"
+      data-i18n="">Historial Acciones</span></a>
+    </li>
+  </ul>
+</div>
+<div class="navigation-background"></div>
+</div> 
+{% endblock %}
+
+
+{% block app_content %}
+<div class="app-content content">
+  <div class="content-wrapper">
+    <div class="content-wrapper-before"></div>
+    <div class="content-header row">
+      <div class="content-header-left col-md-4 col-12 mb-2">
+        <h3 class="content-header-title">INICIO</h3>
+      </div>
+      <div class="content-header-right col-md-8 col-12">
+        <div class="breadcrumbs-top float-md-right">
+          <div class="breadcrumb-wrapper mr-1">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="/">Home</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+<div class="card">
+  <div class="card-header">
+      <h2 class="card-title">Sistema de Estadísticas y Censos: Censos Loja</h2>
+  </div>
+  <div class="card-block">
+      <div class="card-body">
+        <p>En esta aplicación usted podrá visualizar y modificar datos relevantes sobre la adquisición de generadores de energía eléctrica por parte de las familias lojanas.</p>
+        <div class="card-block">
+          <div class="card-header">
+            <h4 class="card-title">Acciones Rápidas</h4>
+          </div> 
+          <div class="card-body">
+            <div class="form-group">
+              <a href="{{ url_for('router_familia.save_familia') }}">
+                <button type="button" class="btn btn-primary btn-min-width mr-1 mb-1"><i class="la la-plus"></i> Agregar Familia</button>
+              </a>
+              <a href="{{ url_for('router_generador.save_generador') }}">
+                <button type="button" class="btn btn-primary btn-min-width mr-1 mb-1"><i class="la la-plus"></i> Agregar Generador</button>
+              </a>
+              <a href="{{ url_for('router_transaccion.save_transaccion') }}">
+                <button type="button" class="btn btn-primary btn-min-width mr-1 mb-1"><i class="la la-plus"></i> Agregar Transacción</button>
+              </a>
+            </div> 
+          </div>          
+        </div>        
+      </div>
+  </div>
+</div>
+
+<div class="col-12 mt-3 mb-1">
+  <h4 class="text-uppercase">Sobre el Sistema</h4>
+  <p>A continuación se muestra una pequeña descripción de las funcionalidades del sistema.</p>
+</div>
+
+<div class="row match-height">
+  <div class="col-lg-4 col-md-12">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Apartado de Familias</h4>
+        <h6 class="card-subtitle text-muted">Tabla de datos con posibilidad de modificación</h6>
+      </div>
+      <img class="" src="https://imgs.search.brave.com/lLPJ0wjw3uvZW02pkZS9orsrrXCS-zSgcLoQl_wA2s0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/ZmFtaWxpYS1mZWxp/ei1zZW50YWRvLXNv/ZmEtc2FsYS1lc3Rh/cl8yMy0yMTQ4NDU2/Mjc5LmpwZz9zZW10/PWFpc19oeWJyaWQ" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">En esta sección usted podrá visualizar la lista actual de los datos de las familias registradas en el sistema</p>
+        <a href="/familia/table" class="card-link">Ir a la sección</a>
+      </div>
+      <div class="card-footer border-top-blue-grey border-top-lighten-5 text-muted">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-12">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Apartado de Generadores</h4>
+        <h6 class="card-subtitle text-muted">Tabla de datos con posibilidad de modificación</h6>
+      </div>
+      <img class="" src="https://imgs.search.brave.com/ufYnpi89XMW6nhfLAQNVG__DP2fTpewjbKgZ3I5n9II/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9odHRw/Mi5tbHN0YXRpYy5j/b20vRF9OUV9OUF82/NTQ0NTItTUxNNDA5/Nzc2Nzc3NjNfMDMy/MDIwLUYtZ2VuZXJh/ZG9yLWVsZWN0cmlj/by1hLWdhc29saW5h/LTU1MDAtdy1wcmV0/dWwtMjYwMzUud2Vi/cA" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">En esta sección usted podrá visualizar la tabla con los datos de los generadores registrados en el sistema</p>
+        <a href="/generador/table" class="card-link">Ir a la sección</a>
+      </div>
+      <div class="card-footer border-top-blue-grey border-top-lighten-5 text-muted">
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-md-12">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Apartado de Transacciones</h4>
+        <h6 class="card-subtitle text-muted">Tabla de datos con posibilidad de modificación</h6>
+      </div>
+      <img class="" src="https://imgs.search.brave.com/QRxPUjR_b0ySmDAoO-BVINxzd9465CwPtiw_4aTbdLo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90by1ncmF0aXMv/Z2VudGUtbmVnb2Np/b3MtZGFuZG9zZS1t/YW5vLWFjdWVyZG9f/NTM4NzYtMTE5Nzk2/LmpwZz9zaXplPTYy/NiZleHQ9anBn" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">En esta sección usted podrá visualizar la lista actual de los datos de las transacciones registradas en el sistema</p>
+        <a href="/transaccion/table" class="card-link">Ir a la sección</a>
+        <div class="card-footer border-top-blue-grey border-top-lighten-5 text-muted">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+{% endblock %}

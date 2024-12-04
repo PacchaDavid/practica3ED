@@ -1,0 +1,35 @@
+{% extends 'transaccion/transaccion_base.html' %}
+{% block title %}Eliminar transaccion{% endblock %}
+{% block extra_routes %}
+  <a href="#"> - </a><a href="/transaccion/delete/{{transaccion.id}}">Eliminar {{transaccion.id}}</a>
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header">
+      <h4 class="card-title">Eliminar datos de transaccion {{transaccion.id}}</h4>
+  </div>
+
+  <div class="card-block">
+      <div class="card-body">
+        <h3>¿Está seguro que quiere perder para siempre los siguientes datos?</h3>
+        <div class="card-text">
+          <ul>
+            <li><strong>{{transaccion.id}}</strong></li>
+            <li><strong>Familia: </strong>{{transaccion.familiaId}}</li>
+            <li><strong>Generador: </strong>{{transaccion.generadorId}}</li>
+            <li><strong>Uso del Generador: </strong>{{transaccion.usoGenerador}}</li>
+          </ul> 
+          <form action="/transaccion/delete/send" method="post">
+            <input type="number" name="id" value="{{transaccion.id}}" readonly hidden>
+            <a href="/transaccion/table">
+              <button type="button" class="btn btn-success btn-min-width mr-1 mb-1"><i class="la la-chevron-left"></i>Volver</button>
+            </a>
+            <button type="submit" class="btn btn-danger btn-min-width mr-1 mb-1"><i class="la la-trash"></i>Eliminar</button>
+          </form>
+          </form>
+        </div>         
+      </div>
+  </div>
+</div>
+  
+{% endblock %}

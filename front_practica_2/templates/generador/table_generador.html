@@ -1,0 +1,105 @@
+{% extends 'generador/generador_base.html' %}
+{% block title %}Tabla de Generadoress{% endblock %}
+{% block static_content %}
+  <link rel="stylesheet" href="{{ url_for('static',filename='assets/css/search.css') }}">
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header">
+      <h4 class="card-title">Generadores Registrados</h4>
+  </div>
+    {% with messages = get_flashed_messages(with_categories=True)  %}
+      {% if messages %}
+        {% for message in messages %}
+          {% if message[0] == 'info' %}
+          <p class="card-subtitle" style="color:#11fc2d"> <i class="la la-check-circle-o"></i> {{ message[1] }}</p>
+          {% else %}     
+            <p class="card-subtitle" style="color: #fc1111;"> <i class="la la-remove"></i> {{ message[1] }}</p>
+          {% endif %}               
+        {% endfor %}         
+      {% endif %}
+    {% endwith %}
+  <div class="card-block">
+      <div class="card-body">
+        <a href="/generador/save">
+          <button type="button" class="btn btn-dark btn-min-width mr-1 mb-1">
+            <i class="la la-plus"></i>
+          </button>
+        </a>
+
+          <a id="searchRequest" href="/generador/table" hidden></a>
+          <a id="sortRequest" href="/generador/table" hidden></a>
+        
+
+          <div class="btn-group mr-1 mb-1">
+            <button type="button" class="btn btn-info" onclick="searchUtility('generador')"><i class="la la-search"></i></button>
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu">
+                {% for attribute in attributes %}
+                  <p class="p-option" value="{{ attribute }}" onclick="buildSearchUrl('generador','{{ attribute }}')">{{ attribute }}</p>
+                {% endfor %}
+            </div>
+          </div>
+          <input type="text" id="inputS"><br>
+
+          <div class="btn-group mr-1 mb-1">
+              <button type="button" class="btn btn-info" onclick="sortUtility('generador','1')"><i class="la la-sort-amount-asc"></i></button>
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              </button>
+              <div class="dropdown-menu">
+                  {% for attribute in attributes %}
+                    <p class="p-option" value="{{ attribute }}" onclick="buildSortUrl('generador','{{ attribute }}')">{{ attribute }}</p>
+                  {% endfor %}
+              </div>
+          </div>
+
+          <div class="btn-group mr-1 mb-1">
+            <button type="button" class="btn btn-info" onclick="sortUtility('generador','0')"><i class="la la-sort-amount-desc"></i></button>
+            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            </button>
+            <div class="dropdown-menu">
+                {% for attribute in attributes %}
+                  <p class="p-option" value="{{ attribute }}" onclick="buildSortUrl('generador','{{ attribute }}')">{{ attribute }}</p>
+                {% endfor %}
+            </div>
+        </div>
+
+        <select name="selection" id="inputSrt">
+          <option value="0" onclick="tipeSort('0')">QUICK_SORT</option>
+          <option value="1" onclick="tipeSort('1')">MERGE_SORT</option>
+          <option value="2" onclick="tipeSort('2')">SHELL_SORT</option>
+        </select>
+        
+        <table class="table">
+          <thead class="thead-dark">
+            <th>Nro</th>
+            <th>Modelo</th>
+            <th>Precio</th>
+            <th>Consumo</th>
+            <th>Potencia</th>
+            <th>Acción</th>
+          </thead>
+          <tbody>
+            {% for generador in generadores %}
+              <tr>
+                <td>{{ generador.numero }}</td>
+                <td>{{ generador.modelo }}</td>
+                <td>${{ generador.precio }}</td>
+                <td>{{ generador.consumo }} L</td>
+                <td>{{ generador.potencia }} W</td>
+                <td>
+                  <a href="{{ url_for('router_generador.update_generador',id=generador.id) }}" ><i class="la la-pencil"></i></a>
+                  <a href="{{ url_for('router_generador.delete_generador',id=generador.id) }}" ><i class="la la-trash"></i></a>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>      
+      </div>
+  </div>
+</div>
+
+<script src="{{ url_for('static',filename='js/sortSearchScript.js') }}"></script>
+
+{% endblock %}

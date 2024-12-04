@@ -1,0 +1,68 @@
+{% extends 'familia/familia_base.html' %}
+{% block title %}Guardar Familia{% endblock %}
+{% block extra_rutes %}
+  <a href="#"> - </a><a href="/familia/save">Guardar</a>
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header">
+    <h4 class="card-title">GUARDAR FAMILIA</h4>
+  </div>
+  <div class="card-block">
+    <div class="card-body">
+      <a href="/familia/table">
+        <button type="button" class="btn btn-icon btn-danger mr-1">
+          <i class="la la-arrow-left"></i> <strong>Tabla de Familias</strong>
+        </button>
+      </a>
+      
+      <form action="/familia/save/send" method="post">
+
+        <h5 class="mt-2"><label for="codigoFamilia">Código único de Familia</label></h5>
+        <fieldset class="form-group">
+            <input required type="text" class="form-control" id="codigoFamilia" name="codigoFamilia" placeholder="ej. F0034" >
+        </fieldset>
+
+        <h5 class="mt-2"><label for="numeroIntegrantes">Numero de Integrantes</label></h5>
+        <fieldset class="form-group">
+            <input required min="0" max="60" type="number" class="form-control" id="numeroIntegrantes" name="nroIntegrantes" >
+        </fieldset>
+
+        <h5 class="mt-2"><label for="apellidosRepresentantes">Apellidos de los representantes de la familia</label></h5>
+        <fieldset class="form-group">
+            <input required type="text" class="form-control" id="apellidosRepresentantes" name="apellidosRepresentantes" >
+        </fieldset>
+        
+        <h5 class="mt-2"><label for="ingresosMensuales">Ingresos Mensuales</label></h5>
+        <fieldset class="form-group">
+            <input required min="10" type="number" step="0.01" class="form-control" id="ingresosMensuales" name="ingresosMensuales">
+        </fieldset>
+
+        <label for="canton"><h5 class="mt-2">Canton</h5></label>
+        <fieldset class="form-group">
+          <select required class="form-control" id="canton" name="canton">
+            {% for canton in enumeracion.cantones %}
+              <option value="{{canton}}">{{canton}}</option>
+            {% endfor %}
+          </select>
+        </fieldset>
+
+        {#- 
+          Esta parte se omite porque el backend calcula automáticamente el nivel socioeconomico
+        <label for="nivelSocioeconomico"><h5 class="mt-2">Nivel Socioeconomico</h5></label>        
+        <fieldset class="form-group">
+          <select required class="form-control" id="nivelSocioeconomico" name="nivelSocioeconomico">
+            {% for nivel in enumeracion.niveles %}
+              <option value="{{nivel}}">{{nivel}}</option>
+            {% endfor %}
+          </select>
+        </fieldset>
+        -#}
+
+        <button type="submit" class="btn mb-1 btn-primary btn-lg btn-block">Guardar Familia </button>
+      </form>
+
+    </div>
+  </div>
+</div>
+{% endblock %}

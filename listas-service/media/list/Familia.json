@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "codigoFamilia": "F0004",
+    "apellidosRepresentantes": "Ruiz Espinoza",
+    "nroIntegrantes": 7,
+    "canton": "ZAPOTILLO",
+    "ingresosMensuales": 50000.0,
+    "nivelSocioeconomico": "ALTO"
+  },
+  {
+    "id": 2,
+    "codigoFamilia": "F0000",
+    "apellidosRepresentantes": "Juárez Benigno",
+    "nroIntegrantes": 3,
+    "canton": "ZAPOTILLO",
+    "ingresosMensuales": 700.0,
+    "nivelSocioeconomico": "BAJO"
+  },
+  {
+    "id": 3,
+    "codigoFamilia": "F0001",
+    "apellidosRepresentantes": "Medina Ojeda",
+    "nroIntegrantes": 6,
+    "canton": "ZAPOTILLO",
+    "ingresosMensuales": 6000.0,
+    "nivelSocioeconomico": "BAJO"
+  },
+  {
+    "id": 4,
+    "codigoFamilia": "F0002",
+    "apellidosRepresentantes": "Nole Cabrera",
+    "nroIntegrantes": 3,
+    "canton": "CATAMAYO",
+    "ingresosMensuales": 8000.0,
+    "nivelSocioeconomico": "MEDIO"
+  },
+  {
+    "id": 5,
+    "codigoFamilia": "F0003",
+    "apellidosRepresentantes": "Armijos Zapata",
+    "nroIntegrantes": 50,
+    "canton": "QUILANGA",
+    "ingresosMensuales": 3000.0,
+    "nivelSocioeconomico": "BAJO"
+  },
+  {
+    "id": 6,
+    "codigoFamilia": "F0005",
+    "apellidosRepresentantes": "Paccha Gallegos",
+    "nroIntegrantes": 23,
+    "canton": "PUYANGO",
+    "ingresosMensuales": 400.0,
+    "nivelSocioeconomico": "BAJO"
+  },
+  {
+    "id": 7,
+    "codigoFamilia": "F0045",
+    "apellidosRepresentantes": "Stiff Orozco",
+    "nroIntegrantes": 34,
+    "canton": "ZAPOTILLO",
+    "ingresosMensuales": 12000.0,
+    "nivelSocioeconomico": "ALTO"
+  },
+  {
+    "id": 8,
+    "codigoFamilia": "F0018",
+    "apellidosRepresentantes": "Rojas Riofrío",
+    "nroIntegrantes": 45,
+    "canton": "CHAGUARPAMBA",
+    "ingresosMensuales": 4500.0,
+    "nivelSocioeconomico": "BAJO"
+  },
+  {
+    "id": 9,
+    "codigoFamilia": "F0034",
+    "apellidosRepresentantes": "Olmedo Suarez",
+    "nroIntegrantes": 12,
+    "canton": "ZAPOTILLO",
+    "ingresosMensuales": 200.0,
+    "nivelSocioeconomico": "BAJO"
+  },
+  {
+    "id": 10,
+    "codigoFamilia": "F0032",
+    "apellidosRepresentantes": "Cevallos Moreno",
+    "nroIntegrantes": 3,
+    "canton": "ZAPOTILLO",
+    "ingresosMensuales": 400000.0,
+    "nivelSocioeconomico": "ALTO"
+  },
+  {
+    "id": 11,
+    "codigoFamilia": "F1000",
+    "apellidosRepresentantes": "Sarango Guaillas",
+    "nroIntegrantes": 3,
+    "canton": "ZAPOTILLO",
+    "ingresosMensuales": 50040.0,
+    "nivelSocioeconomico": "ALTO"
+  },
+  {
+    "id": 12,
+    "codigoFamilia": "F1002",
+    "apellidosRepresentantes": "Toledo Vera",
+    "nroIntegrantes": 5,
+    "canton": "CALVAS",
+    "ingresosMensuales": 1500000.0,
+    "nivelSocioeconomico": "ALTO"
+  },
+  {
+    "id": 13,
+    "codigoFamilia": "F0123",
+    "apellidosRepresentantes": "Torres Serrano",
+    "nroIntegrantes": 3,
+    "canton": "GONZANAMA",
+    "ingresosMensuales": 100300.0,
+    "nivelSocioeconomico": "ALTO"
+  },
+  {
+    "id": 14,
+    "codigoFamilia": "F2004",
+    "apellidosRepresentantes": "Chuico Medina",
+    "nroIntegrantes": 20,
+    "canton": "MACARA",
+    "ingresosMensuales": 304000.0,
+    "nivelSocioeconomico": "ALTO"
+  },
+  {
+    "id": 15,
+    "codigoFamilia": "F3440",
+    "apellidosRepresentantes": "Espinoza Jara",
+    "nroIntegrantes": 3,
+    "canton": "PUYANGO",
+    "ingresosMensuales": 12000.0,
+    "nivelSocioeconomico": "ALTO"
+  }
+]

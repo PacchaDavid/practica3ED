@@ -1,0 +1,114 @@
+{% extends 'familia/familia_base.html' %}
+{% block title %}Tabla de Familias{% endblock %}
+
+{% block static_content %}
+  <link rel="stylesheet" href="{{ url_for('static',filename='assets/css/search.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<div class="card">
+  <div class="card-header">
+      <h4 class="card-title">Familias Registradas</h4>
+  </div>
+    {% with messages = get_flashed_messages(with_categories=True)  %}
+      {% if messages %}
+        {% for message in messages %}
+          {% if message[0] == 'info' %}
+            <p class="card-subtitle" style="color:#11fc2d"> <i class="la la-check-circle-o"></i> {{ message[1] }}</p>
+          {% else %}     
+            <p class="card-subtitle" style="color: #fc1111;"> <i class="la la-remove"></i> {{ message[1] }}</p>
+          {% endif %}               
+        {% endfor %}         
+      {% endif %}
+    {% endwith %}
+  <div class="card-block">
+      <div class="card-body">
+        <a href="/familia/save">
+          <button type="button" class="btn btn-dark btn-min-width mr-1 mb-1">
+            <i class="la la-plus"></i>
+          </button>
+        </a>
+        <a id="searchRequest" href="/familia/table" hidden></a>
+        <a id="sortRequest" href="/familia/table" hidden></a>
+        
+
+        <div class="btn-group mr-1 mb-1">
+          <button type="button" class="btn btn-info" onclick="searchUtility('familia')"><i class="la la-search"></i></button>
+          <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          </button>
+          <div class="dropdown-menu">
+              {% for attribute in attributes %}
+                <p class="p-option" value="{{ attribute }}" onclick="buildSearchUrl('familia','{{ attribute }}')">{{ attribute }}</p>
+              {% endfor %}
+          </div>
+      </div>
+      <input type="text" id="inputS"><br>
+
+      <div class="btn-group mr-1 mb-1">
+        <button type="button" class="btn btn-info" onclick="sortUtility('familia','1')"><i class="la la-sort-amount-asc"></i></button>
+        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        </button>
+        <div class="dropdown-menu">
+            {% for attribute in attributes %}
+              <p class="p-option" value="{{ attribute }}" onclick="buildSortUrl('familia','{{ attribute }}')">{{ attribute }}</p>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="btn-group mr-1 mb-1">
+      <button type="button" class="btn btn-info" onclick="sortUtility('familia','0')"><i class="la la-sort-amount-desc"></i></button>
+      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      </button>
+      <div class="dropdown-menu">
+          {% for attribute in attributes %}
+            <p class="p-option" value="{{ attribute }}" onclick="buildSortUrl('familia','{{ attribute }}')">{{ attribute }}</p>
+          {% endfor %}
+      </div>
+  </div>
+
+  <select name="selection" id="inputSrt">
+    <option value="0" onclick="tipeSort('0')">QUICK_SORT</option>
+    <option value="1" onclick="tipeSort('1')">MERGE_SORT</option>
+    <option value="2" onclick="tipeSort('2')">SHELL_SORT</option>
+  </select>
+      
+        
+        <table class="table">
+          <thead class="thead-dark">
+            <th>Nro</th>
+            <th>Código Familia</th>
+            <th>Apellidos familia</th>
+            <th>Nro Integrantes</th>
+            <th>Canton</th>
+            <th>Ingresos Mensuales</th>
+            <th>Nvl Socioeconomico</th>
+            <th>Acción</th>
+          </thead>
+          <tbody>
+            {% for familia in familias %}
+              <tr>
+                <td>{{ familia.numero }}</td>
+                <td>{{ familia.codigoFamilia }}</td>
+                <td>{{ familia.apellidosRepresentantes }}</td>
+                <td>{{ familia.nroIntegrantes }}</td>
+                <td>{{ familia.canton }}</td>
+                <td>{{ familia.ingresosMensuales }}</td>
+                <td>{{ familia.nivelSocioeconomico }}</td>
+                <td>
+                  <a href="{{ url_for('router_familia.update_familia',id=familia.id) }}"><i class="la la-pencil"></i></a>
+                  <a href="{{ url_for('router_familia.delete_familia',id=familia.id ) }}"><i class="la la-trash"></i></a>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>      
+      </div>
+  </div>
+</div>
+
+<script src="{{ url_for('static',filename='js/sortSearchScript.js') }}"></script>
+
+
+{% endblock %}
+

@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block main_menu_content %}
+<div class="main-menu-content">
+  <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+    <li class="nav-item"><a href="/"><i class="ft-home"></i><span class="menu-title"
+          data-i18n="">Inicio</span></a>
+    </li>
+    <li class="nav-item"><a href="/familia/table"><i class="la la-group"></i><span class="menu-title"
+          data-i18n="">Familias</span></a>
+    </li>
+    <li class="active"><a href="/generador/table"><i class="la la-lightbulb-o"></i><span class="menu-title"
+      data-i18n="">Generadores</span></a>
+    </li>
+    <li class="nav-item"><a href="/transaccion/table"><i class="la la-exchange"></i><span class="menu-title"
+      data-i18n="">Transacciones</span></a>
+    </li>
+    <li class="nav-item"><a href="/historial/table"><i class="la la-history"></i><span class="menu-title"
+      data-i18n="">Historial Acciones</span></a>
+    </li>
+  </ul>
+</div>
+<div class="navigation-background"></div>
+</div>
+{% endblock %}
+
+{% block app_content %}
+<div class="app-content content">
+  <div class="content-wrapper">
+    <div class="content-wrapper-before"></div>
+    <div class="content-header row">
+      <div class="content-header-left col-md-4 col-12 mb-2">
+        <h3 class="content-header-title">GENERADORES</h3>
+      </div>
+      <div class="content-header-right col-md-8 col-12">
+        <div class="breadcrumbs-top float-md-right">
+          <div class="breadcrumb-wrapper mr-1">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="/">Home</a><a href="#"> - </a><a href="/generador/table">Generadores</a>{% block extra_routes %}
+                {% endblock %}
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}

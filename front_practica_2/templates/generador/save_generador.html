@@ -1,0 +1,48 @@
+{% extends 'generador/generador_base.html' %}
+{% block title %}Guardar Generador{% endblock %}
+{% block extra_routes %}
+  <a href="#"> - </a><a href="/generador/save">Guardar</a>
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header">
+    <h4 class="card-title">GUARDAR GENERADOR</h4>
+  </div>
+  <div class="card-block">
+    <div class="card-body">
+
+      <a href="/generador/table">
+        <button type="button" class="btn btn-icon btn-danger mr-1">
+          <i class="la la-arrow-left"></i> <strong>Tabla de Generadores</strong>
+        </button>
+      </a>
+
+      <form action="/generador/save/send" method="post">
+        
+        <h5 class="mt-2"><label for="modelo">Modelo</label></h5>
+        <fieldset class="form-group">
+            <input required type="text" class="form-control" id="modelo" name="modelo" >
+        </fieldset>
+        
+        <h5 class="mt-2"><label for="precio">Precio</label></h5>
+        <fieldset class="form-group">
+            <input required type="number" step="0.01" class="form-control" id="precio" name="precio" min="100">
+        </fieldset>
+
+        <h5 class="mt-2"><label for="consumo">Consumo</label></h5>
+        <fieldset class="form-group">
+            <input required type="number" step="0.01" class="form-control" id="consumo" name="consumo" min="100">
+        </fieldset>
+
+        <h5 class="mt-2"><label for="potencia">Potencia</label></h5>
+        <fieldset class="form-group">
+            <input required type="number" step="0.01" class="form-control" id="potencia" name="potencia" min="100">
+        </fieldset>
+
+        <button type="submit" class="btn mb-1 btn-primary btn-lg btn-block">Guardar Generador</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+{% endblock %}

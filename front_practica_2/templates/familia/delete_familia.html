@@ -1,0 +1,34 @@
+{% extends 'familia/familia_base.html' %}
+{% block title %}Borrar datos de la Familia{% endblock %}
+{% block extra_rutes %}
+  <a href="#"> - </a><a href="/familia/delete/{{familia.id}}">Eliminar {{familia.codigoFamilia}}</a>
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header">
+      <h4 class="card-title">Eliminar datos de la Familia {{familia.codigoFamilia}}</h4>
+  </div>
+
+  <div class="card-block">
+      <div class="card-body">
+        <h3>¿Está seguro que quiere perder para siempre los siguientes datos?</h3>
+        <div class="card-text">
+          <ul>
+            <li><strong>Familia {{familia.apellidosRepresentantes}}</strong></li>
+            <li><strong>Número de integrantes: </strong>{{familia.nroIntegrantes}}</li>
+            <li><strong>Ingresos mensuales: </strong>{{familia.ingresosMensuales}}</li>
+            <li><strong>Cantón: </strong>{{familia.canton}}</li>
+            <li><strong>Nivel socioeconómico: </strong>{{familia.nivelSocioeconomico}}</li>
+          </ul> 
+          <form action="/delete/familia/send" method="post">
+            <input type="number" name="id" value="{{familia.id}}" readonly hidden>
+            <a href="/familia/table">
+              <button type="button" class="btn btn-success btn-min-width mr-1 mb-1"><i class="la la-chevron-left"></i>Volver</button>
+            </a>
+            <button type="submit" class="btn btn-danger btn-min-width mr-1 mb-1"><i class="la la-trash"></i>Eliminar</button>
+          </form>
+        </div>         
+      </div>
+  </div>
+</div>
+{% endblock %}

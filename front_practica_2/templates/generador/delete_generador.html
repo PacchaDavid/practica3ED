@@ -1,0 +1,35 @@
+{% extends 'generador/generador_base.html' %}
+{% block title %}Eliminar Generador{% endblock %}
+{% block extra_routes %}
+  <a href="#"> - </a><a href="/generador/delete/{{generador.id}}">Eliminar {{generador.id}}</a>
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header">
+      <h4 class="card-title">Eliminar datos del Generador {{generador.id}}</h4>
+  </div>
+
+  <div class="card-block">
+      <div class="card-body">
+        <h3>¿Está seguro que quiere perder para siempre los siguientes datos?</h3>
+        <div class="card-text">
+          <ul>
+            <li><strong>{{generador.modelo}}</strong></li>
+            <li><strong>Precio: </strong>{{generador.precio}}</li>
+            <li><strong>Consumo: </strong>{{generador.consumo}}</li>
+            <li><strong>Potencia: </strong>{{generador.potencia}}</li>
+          </ul> 
+          <form action="/generador/delete/send" method="post">
+            <input type="number" name="id" value="{{generador.id}}" readonly hidden>
+            <a href="/generador/table">
+              <button type="button" class="btn btn-success btn-min-width mr-1 mb-1"><i class="la la-chevron-left"></i>Volver</button>
+            </a>
+            <button type="submit" class="btn btn-danger btn-min-width mr-1 mb-1"><i class="la la-trash"></i>Eliminar</button>
+          </form>
+          </form>
+        </div>         
+      </div>
+  </div>
+</div>
+  
+{% endblock %}

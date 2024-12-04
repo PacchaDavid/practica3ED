@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "numeroTransaccion": "000T01",
+    "familiaId": 1,
+    "generadorId": 1,
+    "usoGenerador": "DOMESTICO",
+    "cantidadGeneradores": 1,
+    "precioFinal": 200000.0
+  },
+  {
+    "id": 2,
+    "numeroTransaccion": "000T02",
+    "familiaId": 1,
+    "generadorId": 2,
+    "usoGenerador": "RECREACIONAL",
+    "cantidadGeneradores": 2,
+    "precioFinal": 6800.0
+  },
+  {
+    "id": 3,
+    "numeroTransaccion": "000T03",
+    "familiaId": 12,
+    "generadorId": 1,
+    "usoGenerador": "DOMESTICO",
+    "cantidadGeneradores": 3,
+    "precioFinal": 600000.0
+  },
+  {
+    "id": 4,
+    "numeroTransaccion": "000T04",
+    "familiaId": 6,
+    "generadorId": 10,
+    "usoGenerador": "DOMESTICO",
+    "cantidadGeneradores": 1,
+    "precioFinal": 400324.0
+  },
+  {
+    "id": 5,
+    "numeroTransaccion": "000T57",
+    "familiaId": 7,
+    "generadorId": 1,
+    "usoGenerador": "INDUSTRIAL",
+    "cantidadGeneradores": 4,
+    "precioFinal": 800000.0
+  },
+  {
+    "id": 6,
+    "numeroTransaccion": "000T10",
+    "familiaId": 10,
+    "generadorId": 15,
+    "usoGenerador": "EDUCATIVO",
+    "cantidadGeneradores": 1,
+    "precioFinal": 304.0
+  },
+  {
+    "id": 7,
+    "numeroTransaccion": "000T12",
+    "familiaId": 8,
+    "generadorId": 15,
+    "usoGenerador": "EMPRESARIAL",
+    "cantidadGeneradores": 5,
+    "precioFinal": 1520.0
+  },
+  {
+    "id": 8,
+    "numeroTransaccion": "000T21",
+    "familiaId": 4,
+    "generadorId": 8,
+    "usoGenerador": "DOMESTICO",
+    "cantidadGeneradores": 1,
+    "precioFinal": 9596.0
+  },
+  {
+    "id": 9,
+    "numeroTransaccion": "000T40",
+    "familiaId": 4,
+    "generadorId": 15,
+    "usoGenerador": "INDUSTRIAL",
+    "cantidadGeneradores": 8,
+    "precioFinal": 2432.0
+  },
+  {
+    "id": 10,
+    "numeroTransaccion": "000T56",
+    "familiaId": 11,
+    "generadorId": 13,
+    "usoGenerador": "DOMESTICO",
+    "cantidadGeneradores": 1,
+    "precioFinal": 58585.0
+  },
+  {
+    "id": 11,
+    "numeroTransaccion": "000T55",
+    "familiaId": 9,
+    "generadorId": 15,
+    "usoGenerador": "INDUSTRIAL",
+    "cantidadGeneradores": 40,
+    "precioFinal": 12160.0
+  },
+  {
+    "id": 12,
+    "numeroTransaccion": "000T05",
+    "familiaId": 2,
+    "generadorId": 9,
+    "usoGenerador": "DOMESTICO",
+    "cantidadGeneradores": 2,
+    "precioFinal": 96970.0
+  },
+  {
+    "id": 13,
+    "numeroTransaccion": "000T08",
+    "familiaId": 8,
+    "generadorId": 9,
+    "usoGenerador": "DOMESTICO",
+    "cantidadGeneradores": 2,
+    "precioFinal": 96970.0
+  },
+  {
+    "id": 14,
+    "numeroTransaccion": "000T09",
+    "familiaId": 12,
+    "generadorId": 15,
+    "usoGenerador": "EMPRESARIAL",
+    "cantidadGeneradores": 100,
+    "precioFinal": 30400.0
+  },
+  {
+    "id": 15,
+    "numeroTransaccion": "000T80",
+    "familiaId": 13,
+    "generadorId": 5,
+    "usoGenerador": "COMERCIAL",
+    "cantidadGeneradores": 4,
+    "precioFinal": 1399736.0
+  }
+]

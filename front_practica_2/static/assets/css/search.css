@@ -1,0 +1,12 @@
+.p-option {
+    padding: 1px;
+}
+
+.p-option:hover {
+    background-color: rgb(189, 204, 204);
+    cursor:pointer
+}
+
+#inputS {
+    height: 35px;
+}

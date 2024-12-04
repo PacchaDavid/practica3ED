@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "modelo": "Z500-T",
+    "precio": 200000.0,
+    "consumo": 30000.0,
+    "potencia": 20000.0
+  },
+  {
+    "id": 2,
+    "modelo": "R-34-4",
+    "precio": 3400.0,
+    "consumo": 4000.0,
+    "potencia": 4000.0
+  },
+  {
+    "id": 3,
+    "modelo": "T500-T",
+    "precio": 43300.0,
+    "consumo": 34400.0,
+    "potencia": 30299.0
+  },
+  {
+    "id": 4,
+    "modelo": "Y-475",
+    "precio": 300403.0,
+    "consumo": 340053.0,
+    "potencia": 6075.0
+  },
+  {
+    "id": 5,
+    "modelo": "5P44D",
+    "precio": 349934.0,
+    "consumo": 560567.0,
+    "potencia": 10283.0
+  },
+  {
+    "id": 6,
+    "modelo": "TF4330",
+    "precio": 4.5879437E8,
+    "consumo": 676765.0,
+    "potencia": 90808.0
+  },
+  {
+    "id": 7,
+    "modelo": "OGGH-4",
+    "precio": 779797.0,
+    "consumo": 99809.0,
+    "potencia": 1212.0
+  },
+  {
+    "id": 8,
+    "modelo": "FLLD-44",
+    "precio": 9596.0,
+    "consumo": 4646312.0,
+    "potencia": 24334.0
+  },
+  {
+    "id": 9,
+    "modelo": "JPPFD",
+    "precio": 48485.0,
+    "consumo": 495954.0,
+    "potencia": 454643.0
+  },
+  {
+    "id": 10,
+    "modelo": "HG-334",
+    "precio": 400324.0,
+    "consumo": 432109.0,
+    "potencia": 11204.0
+  },
+  {
+    "id": 11,
+    "modelo": "Z4G0-T",
+    "precio": 34004.0,
+    "consumo": 12220.0,
+    "potencia": 2223000.0
+  },
+  {
+    "id": 12,
+    "modelo": "Z500-OOT",
+    "precio": 4300.0,
+    "consumo": 1000.0,
+    "potencia": 20001.0
+  },
+  {
+    "id": 13,
+    "modelo": "PR034",
+    "precio": 58585.0,
+    "consumo": 11002.0,
+    "potencia": 20002.0
+  },
+  {
+    "id": 14,
+    "modelo": "P09P3",
+    "precio": 377473.0,
+    "consumo": 100102.0,
+    "potencia": 12040.0
+  },
+  {
+    "id": 15,
+    "modelo": "Z500FF",
+    "precio": 304.0,
+    "consumo": 234.0,
+    "potencia": 214234.0
+  }
+]

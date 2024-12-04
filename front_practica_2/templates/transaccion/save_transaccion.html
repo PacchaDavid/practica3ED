@@ -1,0 +1,65 @@
+{% extends 'transaccion/transaccion_base.html' %}
+{% block title %}Guardar transaccion{% endblock %}
+{% block extra_routes %}
+  <a href="#"> - </a><a href="/transaccion/save">Guardar</a>
+{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header">
+    <h4 class="card-title">GUARDAR TRANSACCION</h4>
+  </div>
+  <div class="card-block">
+    <div class="card-body">
+
+      <a href="/transaccion/table">
+        <button type="button" class="btn btn-icon btn-danger mr-1">
+          <i class="la la-arrow-left"></i> <strong>Tabla de transacciones</strong>
+        </button>
+      </a>
+
+      <form action="/transaccion/save/send" method="post">
+
+        <h5 class="mt-2"><label for="numeroTransaccion">Numero único de Transacción</label></h5>
+        <fieldset class="form-group">
+            <input required type="text" class="form-control" id="numeroTransaccion" name="numeroTransaccion" placeholder="ej. 000T56">
+        </fieldset>
+        
+        <h5 class="mt-2"><label for="familiaId">Familia</label></h5>
+        <fieldset class="form-group">
+            <select class="form-control" name="familiaId" id="familiaId" required>
+              {% for familia in context.familias %}
+                <option value="{{familia.id}}">{{familia.apellidosRepresentantes}}</option>
+              {% endfor %}
+            </select>
+        </fieldset>
+        
+        <h5 class="mt-2"><label for="generadorId">Generador</label></h5>
+        <fieldset class="form-group">
+          <select class="form-control" name="generadorId" id="generadorId" required>
+            {% for generador in context.generadores %}
+              <option value="{{generador.id}}">{{generador.modelo}}</option>
+            {% endfor %}
+          </select>
+        </fieldset>
+
+        <h5 class="mt-2"><label for="usoGenerador">Uso del Generador</label></h5>
+        <fieldset class="form-group">
+          <select class="form-control" name="usoGenerador" id="usoGenerador" required>
+            {% for uso in context.usosGenerador %}
+              <option value="{{uso}}">{{uso}}</option>
+            {% endfor %}
+          </select>
+        </fieldset>
+
+        <h5 class="mt-2"><label for="ingresosMensuales">Cantidad de Generadores comprados por la familia</label></h5>
+        <fieldset class="form-group">
+            <input required min="1" type="number" step="1" class="form-control" id="nombres" name="cantidadGeneradores">
+        </fieldset>
+
+        <button type="submit" class="btn mb-1 btn-primary btn-lg btn-block">Guardar Transaccion</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+{% endblock %}

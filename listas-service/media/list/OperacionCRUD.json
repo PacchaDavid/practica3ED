@@ -1,0 +1,1149 @@
+[
+  {
+    "id": 1,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "9:44:23"
+  },
+  {
+    "id": 2,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "9:45:23"
+  },
+  {
+    "id": 3,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "9:47:42"
+  },
+  {
+    "id": 4,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "9:48:9"
+  },
+  {
+    "id": 5,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "9:48:41"
+  },
+  {
+    "id": 6,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:17:50"
+  },
+  {
+    "id": 7,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:18:39"
+  },
+  {
+    "id": 8,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:19:16"
+  },
+  {
+    "id": 9,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:20:10"
+  },
+  {
+    "id": 10,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:20:50"
+  },
+  {
+    "id": 11,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:22:11"
+  },
+  {
+    "id": 12,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:22:42"
+  },
+  {
+    "id": 13,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:23:16"
+  },
+  {
+    "id": 14,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:24:4"
+  },
+  {
+    "id": 15,
+    "nombreClase": "Familia",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:24:33"
+  },
+  {
+    "id": 16,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:26:48"
+  },
+  {
+    "id": 17,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:27:13"
+  },
+  {
+    "id": 18,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:29:13"
+  },
+  {
+    "id": 19,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:29:40"
+  },
+  {
+    "id": 20,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:30:0"
+  },
+  {
+    "id": 21,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:31:23"
+  },
+  {
+    "id": 22,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:31:38"
+  },
+  {
+    "id": 23,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:32:0"
+  },
+  {
+    "id": 24,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "11:32:16"
+  },
+  {
+    "id": 25,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:49:33"
+  },
+  {
+    "id": 26,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:50:40"
+  },
+  {
+    "id": 27,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:50:57"
+  },
+  {
+    "id": 28,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:51:14"
+  },
+  {
+    "id": 29,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:51:33"
+  },
+  {
+    "id": 30,
+    "nombreClase": "Generador",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:51:43"
+  },
+  {
+    "id": 31,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:0"
+  },
+  {
+    "id": 32,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:52:0"
+  },
+  {
+    "id": 33,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:0"
+  },
+  {
+    "id": 34,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:0"
+  },
+  {
+    "id": 35,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:15"
+  },
+  {
+    "id": 36,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:52:15"
+  },
+  {
+    "id": 37,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:15"
+  },
+  {
+    "id": 38,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:15"
+  },
+  {
+    "id": 39,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:15"
+  },
+  {
+    "id": 40,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:15"
+  },
+  {
+    "id": 41,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:49"
+  },
+  {
+    "id": 42,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:52:49"
+  },
+  {
+    "id": 43,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:49"
+  },
+  {
+    "id": 44,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:49"
+  },
+  {
+    "id": 45,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:49"
+  },
+  {
+    "id": 46,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:49"
+  },
+  {
+    "id": 47,
+    "idObjeto": 12,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:49"
+  },
+  {
+    "id": 48,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:52:49"
+  },
+  {
+    "id": 49,
+    "idObjeto": 10,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 50,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 51,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 52,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 53,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 54,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 55,
+    "idObjeto": 12,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 56,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 57,
+    "idObjeto": 6,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 58,
+    "idObjeto": 10,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:20"
+  },
+  {
+    "id": 59,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 60,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 61,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 62,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 63,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 64,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 65,
+    "idObjeto": 12,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 66,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 67,
+    "idObjeto": 6,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 68,
+    "idObjeto": 10,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 69,
+    "idObjeto": 7,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 70,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:53:36"
+  },
+  {
+    "id": 71,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 72,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 73,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 74,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 75,
+    "idObjeto": 12,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 76,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 77,
+    "idObjeto": 6,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 78,
+    "idObjeto": 10,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 79,
+    "idObjeto": 7,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 80,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:13"
+  },
+  {
+    "id": 81,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 82,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 83,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 84,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 85,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 86,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 87,
+    "idObjeto": 12,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 88,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 89,
+    "idObjeto": 6,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 90,
+    "idObjeto": 10,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 91,
+    "idObjeto": 7,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 92,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 93,
+    "idObjeto": 10,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 94,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:54:40"
+  },
+  {
+    "id": 95,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 96,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 97,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 98,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 99,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 100,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 101,
+    "idObjeto": 12,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 102,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 103,
+    "idObjeto": 6,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 104,
+    "idObjeto": 10,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 105,
+    "idObjeto": 7,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 106,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 107,
+    "idObjeto": 10,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 108,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 109,
+    "idObjeto": 8,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 110,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:12"
+  },
+  {
+    "id": 111,
+    "idObjeto": 7,
+    "nombreClase": "Transaccion",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:16"
+  },
+  {
+    "id": 112,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 113,
+    "idObjeto": 7,
+    "nombreClase": "Transaccion",
+    "operacion": "UPDATE",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 114,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 115,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 116,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 117,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 118,
+    "idObjeto": 12,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 119,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 120,
+    "idObjeto": 6,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 121,
+    "idObjeto": 10,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 122,
+    "idObjeto": 7,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 123,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 124,
+    "idObjeto": 10,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 125,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 126,
+    "idObjeto": 8,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 127,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:55:19"
+  },
+  {
+    "id": 128,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 129,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 130,
+    "idObjeto": 1,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 131,
+    "idObjeto": 2,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 132,
+    "idObjeto": 12,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 133,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 134,
+    "idObjeto": 6,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 135,
+    "idObjeto": 10,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 136,
+    "idObjeto": 7,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 137,
+    "idObjeto": 1,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 138,
+    "idObjeto": 10,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 139,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 140,
+    "idObjeto": 8,
+    "nombreClase": "Familia",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 141,
+    "idObjeto": 15,
+    "nombreClase": "Generador",
+    "operacion": "QUERY",
+    "fecha": "4-12-2024",
+    "hora": "14:56:5"
+  },
+  {
+    "id": 142,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "15:13:51"
+  },
+  {
+    "id": 143,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "15:14:31"
+  },
+  {
+    "id": 144,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "15:25:27"
+  },
+  {
+    "id": 145,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "15:26:4"
+  },
+  {
+    "id": 146,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "15:26:48"
+  },
+  {
+    "id": 147,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "15:27:35"
+  },
+  {
+    "id": 148,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "15:28:19"
+  },
+  {
+    "id": 149,
+    "nombreClase": "Transaccion",
+    "operacion": "SAVE",
+    "fecha": "4-12-2024",
+    "hora": "15:29:9"
+  }
+]
