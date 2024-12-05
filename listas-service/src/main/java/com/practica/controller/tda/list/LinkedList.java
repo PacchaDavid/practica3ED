@@ -207,7 +207,7 @@ public class LinkedList<E> {
             aux = aux.getNext();
         }
     }
-    // BEGIN QUICK SORT ==========================================================================
+    // BEGIN QUICK SORT ============================================================================================
 
     // PRINCIPAL :V (QUICKSORT)
     public LinkedList<E> quickSort(String attribute, Integer orden) throws Exception {
@@ -256,10 +256,10 @@ public class LinkedList<E> {
         array[j] = temp;
     }
 
-    // END QUICKSORT ===========================================================================
+    // END QUICKSORT ===================================================================================================
 
 
-    // BEGIN MERGESORT ===================================================================
+    // BEGIN MERGESORT =================================================================================================
     
     private void merge(String atribute, E arr[], int l, int m, int r, Integer orden) throws Exception
     {
@@ -328,9 +328,9 @@ public class LinkedList<E> {
         return this.fromArrayToLinkedList(array);
     }
 
-    // END MERGESORT =========================================================================
+    // END MERGESORT ============================================================================================
 
-    // BEGIN SHELL SORT ======================================================================
+    // BEGIN SHELL SORT =========================================================================================
 
     private int shellSort(String attribute, E[] arr, Integer orden) throws Exception
     {
@@ -359,10 +359,13 @@ public class LinkedList<E> {
         return this.fromArrayToLinkedList(array);
     }
 
-    // END SHELL SORT =======================================================================
+    // END SHELL SORT ========================================================================================
 
-    // BEGIN BINARY SEARCH ==============================================================================================
+    // BEGIN BINARY SEARCH ====================================================================================
 
+    /* En los siguientes métodos de búsqueda, el Object x es el valor del atributo del objeto que deseamos buscar en la lista
+     * Por ejemplo: String : attribute='nombre', Object : x='Pablo'
+      */
 
     private int binarySearch(E arr[], Object x, String attribute) throws Exception
     {
@@ -385,7 +388,7 @@ public class LinkedList<E> {
         return -1;
     }
 
-    // PRINCIPAL :V () 
+    // PRINCIPAL :V (binarySearch) 
     public E binarySearch(String attribute, Object x) throws Exception {
         if(isEmpty()) return null;
         try {
@@ -410,22 +413,28 @@ public class LinkedList<E> {
 
     public LinkedList<E> binaryLinearSearch(String attribute, Object x) {
         if(isEmpty()) return new LinkedList<>();
+
         try {
             this.mergeSort(attribute, 1);
-            Integer index = getIndexOf(attribute, x);
-            Integer i = index.intValue();
+            
+            Integer index = getIndexOf(attribute, x); 
+            Integer i = index.intValue(); 
+            
             E obj = get(index);
+
             E[] arr = this.toArray();
             LinkedList<E> list = new LinkedList<>();
             while(index >= 0 && compareObjects(exist_attribute(arr[index], attribute),exist_attribute(obj, attribute))) {
                 list.add(arr[index]);
                 index--;
             }
+
             index = i+1;
             while(index < this.size && compareObjects(exist_attribute(arr[index], attribute),exist_attribute(obj, attribute))) {
                 list.add(arr[index]);
                 index++;
             }
+
             return list;
         } catch (Exception e) {
             e.printStackTrace();
@@ -512,6 +521,9 @@ public class LinkedList<E> {
         return null;
     }
 
+    /* Método para comparar parcialmente las cadenas de texto */
+    // Ejemplo: "Pedro".contains("Pe") : true;
+    // También compara tipos numéricos
     private Boolean compareObjects(Object a, Object b) {
         if(a instanceof Number && b instanceof Number) {
             Number a_ = (Number)a;
