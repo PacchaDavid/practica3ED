@@ -28,10 +28,16 @@ def table_transaccion():
 @router_transaccion.route('/transaccion/search/<attribute>/<value>')
 def transaccion_search(attribute,value):
     response = requests.get(f'{T_URL}/search/{attribute}/{value}')
+    if response.status_code != 200:
+        flash(response.json()['data'],category=response.json()['status'])
+        return redirect('/transaccion/table')
     attributes = requests.get(f'{T_URL}/attributes').json()['data']
     transacciones = response.json()['data']
     for i in range(0,len(transacciones)): 
         transacciones[i]['numero'] = i+1
+        transacciones[i]['apellidosFamilia'] = requests.get(f'{F_URL}/get/{transacciones[i]['familiaId']}').json()['data']['apellidosRepresentantes']
+        transacciones[i]['generadorModelo'] = requests.get(f'{G_URL}/get/{transacciones[i]['generadorId']}').json()['data']['modelo']
+
     return render_template('transaccion/table_transaccion.html',transacciones=transacciones,attributes=attributes)
 
 @router_transaccion.route('/transaccion/sort/<attribute>/<orden>/<typesort>')
@@ -41,6 +47,8 @@ def transaccion_sort(attribute,orden,typesort):
     transacciones = response.json()['data']
     for i in range(0,len(transacciones)): 
         transacciones[i]['numero'] = i+1
+        transacciones[i]['apellidosFamilia'] = requests.get(f'{F_URL}/get/{transacciones[i]['familiaId']}').json()['data']['apellidosRepresentantes']
+        transacciones[i]['generadorModelo'] = requests.get(f'{G_URL}/get/{transacciones[i]['generadorId']}').json()['data']['modelo']
     return render_template('transaccion/table_transaccion.html',transacciones=transacciones,attributes=attributes)
 
 # TRANSACCION SAVE ========================================================================

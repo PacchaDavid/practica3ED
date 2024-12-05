@@ -10,8 +10,8 @@ function buildSearchUrl(className,attribute) {
 
 function searchUtility(className) {
     if (aLabel.href != `${baseURL}${className}/table`) {
-        aLabel.href += inputS.value
-    }
+        aLabel.href += (inputS.value == '') ? ' ' : inputS.value
+    } 
     if(inputS.value != '')
         aLabel.click()
 }
