@@ -224,7 +224,7 @@ public class LinkedList<E> {
         return this.fromArrayToLinkedList(array);
     }
 
-    private void quickSort(String attribute, E[] array, Integer low, Integer high, Integer orden) throws Exception{
+    private void quickSort(String attribute, E[] array, Integer low, Integer high, Integer orden) throws Exception {
         if(low < high) {
             int pivoteIndex = partition(attribute,array,low,high,orden);
             
@@ -260,25 +260,31 @@ public class LinkedList<E> {
 
 
     // BEGIN MERGESORT =================================================================================================
+
+    // PRINCIPAL :V (MERGESORT)
+    public LinkedList<E> mergeSort(String attribute, Integer orden) throws Exception {
+        if(isEmpty()) return this;
+        E[] array = this.toArray();
+        final Integer l = 0;
+        final Integer r = array.length-1;
+        mergeSort(attribute, array, l, r, orden);
+        reset();
+        return this.fromArrayToLinkedList(array);
+    }
     
     private void merge(String atribute, E arr[], int l, int m, int r, Integer orden) throws Exception
     {
         Class<?> _class = this.header.getInfo().getClass();
-
         int n1 = m - l + 1;
         int n2 = r - m;
-
         E L[] = (E[])Array.newInstance(_class, n1);
         E R[] = (E[])Array.newInstance(_class, n2);
-
 
         for (int i = 0; i < n1; ++i)
             L[i] = arr[l + i];
         for (int j = 0; j < n2; ++j)
             R[j] = arr[m + 1 + j];
-
         int i = 0, j = 0;
-
         int k = l;
         while (i < n1 && j < n2) {
             if (atrribute_compare(atribute, L[i], R[j], orden)) {
@@ -291,13 +297,11 @@ public class LinkedList<E> {
             }
             k++;
         }
-
         while (i < n1) {
             arr[k] = L[i];
             i++;
             k++;
         }
-
         while (j < n2) {
             arr[k] = R[j];
             j++;
@@ -305,32 +309,29 @@ public class LinkedList<E> {
         }
     }
 
-    private void mersort(String attribute, E arr[], int l, int r, Integer orden) throws Exception
+    private void mergeSort(String attribute, E arr[], int l, int r, Integer orden) throws Exception
     {
         if (l < r) {
 
             int m = l + (r - l) / 2;
 
-            mersort(attribute,arr, l, m,orden);
-            mersort(attribute,arr, m + 1, r,orden);
+            mergeSort(attribute,arr, l, m,orden);
+            mergeSort(attribute,arr, m + 1, r,orden);
             merge(attribute,arr, l, m, r,orden);
         }
-    }
-
-    // PRINCIPAL :V (MERGESORT)
-    public LinkedList<E> mergeSort(String attribute, Integer orden) throws Exception {
-        if(isEmpty()) return this;
-        E[] array = this.toArray();
-        final Integer l = 0;
-        final Integer r = array.length-1;
-        mersort(attribute, array, l, r, orden);
-        reset();
-        return this.fromArrayToLinkedList(array);
     }
 
     // END MERGESORT ============================================================================================
 
     // BEGIN SHELL SORT =========================================================================================
+
+    // PRINCIPAL :V (SHELLSORT)
+    public LinkedList<E> shellSort(String attribute, Integer orden) throws Exception {
+        if(isEmpty()) return this;
+        E[] array = this.toArray();
+        shellSort(attribute, array, orden);
+        return this.fromArrayToLinkedList(array);
+    }
 
     private int shellSort(String attribute, E[] arr, Integer orden) throws Exception
     {
@@ -351,14 +352,6 @@ public class LinkedList<E> {
         return 0;
     }
 
-    // PRINCIPAL :V (SHELLSORT)
-    public LinkedList<E> shellSort(String attribute, Integer orden) throws Exception {
-        if(isEmpty()) return this;
-        E[] array = this.toArray();
-        shellSort(attribute, array, orden);
-        return this.fromArrayToLinkedList(array);
-    }
-
     // END SHELL SORT ========================================================================================
 
     // BEGIN BINARY SEARCH ====================================================================================
@@ -366,6 +359,19 @@ public class LinkedList<E> {
     /* En los siguientes métodos de búsqueda, el Object x es el valor del atributo del objeto que deseamos buscar en la lista
      * Por ejemplo: String : attribute='nombre', Object : x='Pablo'
       */
+
+    // PRINCIPAL :V (binarySearch) 
+    public E binarySearch(String attribute, Object x) throws Exception {
+        if(isEmpty()) return null;
+        try {
+            E[] arr = this.toArray();
+            return arr[binarySearch(arr, x, attribute)];
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new Exception("Object not found");
+        }
+        
+    }
 
     private int binarySearch(E arr[], Object x, String attribute) throws Exception
     {
@@ -386,19 +392,6 @@ public class LinkedList<E> {
         }
 
         return -1;
-    }
-
-    // PRINCIPAL :V (binarySearch) 
-    public E binarySearch(String attribute, Object x) throws Exception {
-        if(isEmpty()) return null;
-        try {
-            E[] arr = this.toArray();
-            return arr[binarySearch(arr, x, attribute)];
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new Exception("Object not found");
-        }
-        
     }
 
     public Integer getIndexOf(String attribute, Object x) throws Exception {

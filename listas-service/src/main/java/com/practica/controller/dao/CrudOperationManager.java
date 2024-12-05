@@ -90,7 +90,6 @@ public class CrudOperationManager extends AdapterDao<OperacionCRUD> {
     }
 
 
-
      public OperacionCRUD[] sort(String attribute, Integer orden, Integer tipoOrdenacion) throws Exception
     {
         LinkedList<OperacionCRUD> list = listAll();
@@ -114,6 +113,9 @@ public class CrudOperationManager extends AdapterDao<OperacionCRUD> {
 
     public OperacionCRUD[] search(String attribute, String x) throws Exception {
         LinkedList<OperacionCRUD> list = listAll();
+        if(attribute.equalsIgnoreCase("hora") || attribute.equalsIgnoreCase("fecha")) {
+            return list.searchBy(attribute, x).toArray(getOperacionCRUD().getClass());
+        }
         return list.binaryLinearSearch(attribute, x).toArray(this.getOperacionCRUD().getClass());  
     }
 }
