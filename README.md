@@ -1,6 +1,9 @@
 # practica3ED
 Práctica de Laboratorio Número 3 de la Asignatura de Estructuras de Datos, Carrera de Computación, Facultad de la Energía, Universidad Nacional de Loja.
 
+Implementación de los Métodos de Búsqueda: BinarySearch y LinearBinarySearch.
+Implementación de los Métodos de Ordenación: QuickSort, MergeSort, ShellSort.
+
 Prerrequisitos: 
 - openjdk 21.0.5 2024-10-15
 - maven 3.8.7
