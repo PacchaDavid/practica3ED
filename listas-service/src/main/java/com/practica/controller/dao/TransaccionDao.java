@@ -184,7 +184,7 @@ public class TransaccionDao extends AdapterDao<Transaccion> {
 
     public Transaccion[] search(String attribute, String x) throws Exception {
         LinkedList<Transaccion> list = listAll();
-        if(attribute.equalsIgnoreCase("NumeroCompra"))
+        if(attribute.equalsIgnoreCase("NumeroTransaccion"))
             return list.binaryLinearSearch(attribute, x).toArray(getTransaccion().getClass());  
         else if (attribute.equalsIgnoreCase("familiaId") || attribute.equalsIgnoreCase("generadorId") || attribute.equalsIgnoreCase("cantidadGeneradores"))
             return list.binaryLinearSearch(attribute, Integer.parseInt(x)).toArray(getTransaccion().getClass());

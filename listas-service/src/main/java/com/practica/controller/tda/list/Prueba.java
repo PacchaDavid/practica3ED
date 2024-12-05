@@ -120,6 +120,5 @@ public class Prueba {
         System.out.println("Tiempo de ejecucion Búsqueda Binaria: "+ total1 +"ms");
         System.out.println("Tiempo de ejecucion Búsqueda Lineal Binaria: "+ total2 +"ms");
         System.out.println("===============================================================");
-
     }
 }

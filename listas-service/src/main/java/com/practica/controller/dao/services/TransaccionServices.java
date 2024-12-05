@@ -80,4 +80,8 @@ public class TransaccionServices {
     public Transaccion[] sort(String attribute,Integer orden, Integer typeSort) throws Exception {
         return this.obj.sort(attribute, orden, typeSort);
     }
+
+    public Transaccion[] search(String attribute,String x) throws Exception {
+        return this.obj.search(attribute, x);
+    }
 }
