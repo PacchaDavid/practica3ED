@@ -1,4 +1,4 @@
-# Práctica 3: Métodos de Ordenación Y Búsqueda
+esgurg
 Práctica de Laboratorio Número 3 de la Asignatura de Estructuras de Datos, Carrera de Computación, Facultad de la Energía, Universidad Nacional de Loja.
 
 Implementación de los Métodos de Búsqueda: BinarySearch y LinearBinarySearch.
